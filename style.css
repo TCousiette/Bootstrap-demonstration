@@ -1,0 +1,95 @@
+
+.page {
+  overflow: hidden;
+  display: grid;
+  min-height: 100vh;
+
+
+
+}
+body{
+  background-color: hsl(210, 46%, 95%);
+
+}
+.container{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 10%;
+}
+
+
+/* Cards */
+.card-body {
+  margin-left: 10px;
+}
+.card-dark {
+  background-color: grey;
+  color: white;
+}
+.card-light{
+color: hsl(217, 19%, 35%);
+}
+.card-second-row{
+  margin-top: 30px;
+}
+
+/* CARDS' CONTENT */
+.card-subtitle {
+  margin-top: 20px;
+  font-size: 20px;
+
+}
+.card-text{
+  margin-top: 20px;
+}
+h5 {
+  font-size: 13px;
+}
+.under-name {
+  font-size: 13px;
+opacity: 0.5;
+}
+.card-text {
+  opacity: 0.7;
+}
+.card-img-top{
+  border-radius: 100%;
+height: 30px;
+width: 30px;
+float: left;
+margin-right: 10px;
+}
+
+/*  PURPLE CARD */
+.card-purple{
+  background-color: hsl(263, 55%, 52%);
+}
+.daniel {
+  border: 2px solid rgba(255,255,255, 0.5);
+}
+.quots-img{
+  position: absolute;
+  margin-left: 60%;
+  z-index: 0;
+  opacity: 0.3;
+  top: 0px;
+}
+
+/* ALMOST BLACK CARD */
+.card-black{
+  background-color: hsl(219, 29%, 14%);
+}
+.patrick {
+  border: 2px solid rgba(117, 65, 200, 0.5);
+}
+
+/* GREY CARD */
+.card-grey{
+  background-color: hsl(217, 19%, 35%);
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: auto;
+}
